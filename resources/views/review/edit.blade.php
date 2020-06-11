@@ -35,7 +35,7 @@
           <div class="col-md-4"></div>
             <div class="form-group col-md-4">
                 <lable>Approval</lable>
-                <select name="sstatus">
+                <select name="status">
                   <option value="0" @if($data_review->status==0)selected @endif>Pending</option>
                   <option value="1" @if($data_review->status==1)selected @endif>Approve</option>
                   <option value="2" @if($data_review->status==2)selected @endif>Report</option>
